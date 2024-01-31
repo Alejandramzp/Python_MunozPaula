@@ -22,5 +22,4 @@ for i2 in range (nK[0]):
 
 
 
-
 ## Desarrollo por PAULA ALEJANDRA MUÑOZ PEÑARANDA -- 1095953057
