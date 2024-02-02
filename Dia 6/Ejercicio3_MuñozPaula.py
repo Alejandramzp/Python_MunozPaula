@@ -22,13 +22,13 @@ coord1 = (x1,y1,r1)
 listA =[coord1]
 
 ## coordenadas B
-print("Ingresa las coordenadas y el radio de la bola A") 
+print("Ingresa las coordenadas y el radio de la bola B") 
 coordinates =input("").split(" ")
 
 q = coordinates
-x2 = float(p[0])
-y2 = float(p[1])
-r2 = float(p[2])
+x2 = float(q[0])
+y2 = float(q[1])
+r2 = float(q[2])
 coord2 = (x2,y2,r2)
 listB =[coord2]
 

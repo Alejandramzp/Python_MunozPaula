@@ -27,4 +27,4 @@ for case in range(T):
     result = pares(l_n, n, k)
     print ("Case {}:{}".format(case+1,result))
 
-## Diseñado por Paula Muñoz Y Brayan Lindarte                    
+## Diseñado por Paula Muñoz                 

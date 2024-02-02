@@ -21,17 +21,13 @@ print"b is big:", big              #4. LE FALTA LA ESTRUCTURA ADECUADA AL PRINT 
 ##----------------------------------------------------
 ## CÓDIGO SOLUCIÓN
 
-def negate(num):
-    return -num
-    
-def largue_num(num):
-    return(num > 10000)    
+import ModulosDia6 as negativo
 
 b= 85    
-neg_b = negate(b) 
+neg_b = negativo.negate(b) 
 print ('b:' , b, 'neg_b:', neg_b)   
 
-big = largue_num(b)
+big = negativo.largue_num(b)
 print("b is big:", big)  
 
 ## Creado por PAULA ALEJANDRA MUÑOZ PEÑARANDA

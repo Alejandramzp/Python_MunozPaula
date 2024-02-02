@@ -4,11 +4,9 @@
 
 import random  ## Importar el modulo nùmeros aleatorios
 
-def juegoAdivinar():  ## Definir la funciòn
-    numeroSecreto = random.randint(1, 100)  ## Damos un rango de 1 hasta 100 para el nùmero aleatorio
-    return numeroSecreto  ##retornamos el nùmero secreto
-intentos=10 
+import ModulosDia2 as jueguito
 
+intentos=10 
 
 print("-------------Bienvenido al juego de adivina un nùmero aleatorio---------------")
 print("")
@@ -17,7 +15,7 @@ print("solo cuentas con 10 intentos, pero no te preocupes, el juego te proporcio
 print("")
 print("¡Recuerda que solo tienes 10 intentos!")
 
-numeroSec= juegoAdivinar() ##llamando a la funciòn
+numeroSec= jueguito.juegoAdivinar() ##llamando a la funciòn
 inten = 0 
 while intentos > 0:  ##Condiciòn de los intentos para seguir pidiendo el nùmero
     try:

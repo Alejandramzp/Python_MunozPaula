@@ -1,16 +1,8 @@
 ## ---------------------------------------------------
 ## ------------------- Ejercicio 1 -------------------
 ## ---------------------------------------------------
-def fibonacci(n):        ## Definir la funciòn y agragarle el paràmetro de n nùmeros para el array  
-    
-    fibo = [0,1]               ## Nombramos la funciòn y le asignamos los primeros valores         
-    for i in range(2,n):       ## for desde 2 hasta n
 
-        seriefibo = fibo[i-1]+fibo[i-2]    ## Formula de la serie Fibonacci
-        fibo.append(seriefibo)              ## Agregar valores en el array  
-    
-           
-    return fibo                          ## Retornar el array
+import ModulosDia2 as fibo  ## Retornar el array
 
 print("-------Bienvenido a la serrie de Fibonacci-------")
 print("La serie comienza con 0 y 1, y cada valor siguiente es la suma de los dos valores anteriores.")
@@ -37,7 +29,7 @@ while  rta:    ## Mientras la variable sea verdadera seguira en el while
 
 
 while n!=0:       ## Mientras n sea mayor que 0 se muestra la serie
-    print(fibonacci(n))
+    print(fibo.fibonacci(n))
     while True:     ## While para que el programa se detenga cuando muestra la lista
             try:
                 n = int(input("Por favor digita la cantidad de nùmeros enteros que deseas en la serie de Fibonacci o por el contrario si deseas salir del programa: ")) 

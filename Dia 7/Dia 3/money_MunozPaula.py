@@ -2,11 +2,10 @@
 ## ------------------- Ejercicio 1 -------------------
 ## ---------------------------------------------------
 
-def moneyChange(money):
-    return  [10] * (money // 10) + [5] * ((money % 10) // 5) + [1] * ((money % 10) % 5)
+import ModulosDia3 as Money
 
 money = int(input(""))
-coins = moneyChange(money)
+coins = Money.moneyChange(money)
 coin = ((money // 10) + ((money % 10) // 5) + ((money % 10) % 5))
 if money >= 1 and money <=1000 :
 
